@@ -1,0 +1,198 @@
+/*********** CONTAINER MAIN ***********/
+.label_super_container{
+    border: 2px solid  #99FF00;
+    background-color: #002F35;
+    height: 96vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #99FF00;
+    padding: 1rem;
+}
+/*********** CONTAINER 0 ***********/
+.label_title_container{
+    height: 7%;
+    width: 98%;
+    border: 2px solid  #99FF00;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/*********** CONTAINER 1 ***********/
+.label_description_container{
+    height: 15%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.label_description_container_description{
+    width: 60%;
+    margin-right: 1rem;
+    font-size: 14px;
+}
+.label_description_container_description_bio{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.label_description_container_qr{
+    width: 40%;
+    border: 2px solid  #99FF00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+/*********** CONTAINER 2 ***********/
+.nutritional_tabel_container{
+    height: 25%;
+    width: 99%;
+    border: 2px solid  #99FF00;
+    margin-bottom: 1rem;
+}
+/*********** CONTAINER 3 ***********/
+.info_logo_container{
+    height: 35%;
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.info_logo_container_info{
+
+    width: 30%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.info_logo_container_info_basirico{
+    border: 2px solid  #99FF00;
+    border-radius: 4px;
+    height: 33%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+.info_logo_container_info_bellitti{
+    border: 2px solid  #99FF00;
+    border-radius: 4px;
+    height: 33%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.info_logo_container_info_conservare{
+    border: 2px solid  #99FF00;
+    border-radius: 4px;
+    height: 33%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.info_logo_container_logo{
+
+    width: 70%;
+    height: 100%;
+}
+.info_logo_container_logo_img{
+    width: 100%;
+}
+/*********** CONTAINER 4 ***********/
+.certification_info_container{
+    height: 20%;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.certification_info_container_biocert{
+    border: 2px solid  #99FF00;
+    width: 30%;
+    margin-right: 1rem;
+}
+.label_certification_info_container_info_container{
+    height: 97.5%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.label_certification_info_container_userecycle{
+    height: 60%;
+  
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.8rem;
+    
+}
+.label_certification_info_container_userecycle_box_1,.label_certification_info_container_userecycle_box_2,.label_certification_info_container_userecycle_box_3,.label_certification_info_container_userecycle_box_4{
+    max-height: 100%;
+    width: 25%;
+    border: 2px solid  #99FF00;
+}
+.label_certification_info_container_userecycle_box_1,.label_certification_info_container_userecycle_box_2,.label_certification_info_container_userecycle_box_3{
+    margin-right: 0.5rem;
+    font-size: 8px;
+    padding: 0.25rem;
+    background-color: #f5f5f5;
+    color: #002F35;
+    border-radius: 4px;
+    border: 2px solid #f5f5f5 ;
+}
+.label_certification_info_container_italianolitres{
+    height: 40%;
+
+    display: flex;
+    flex-direction: row;
+}
+.label_certification_info_container_italianolitre_box_1{
+    height: 100%;
+    width: 50%;
+    border: 2px solid  #99FF00;
+    border-radius: 4px;
+    background-color: #99FF00;
+    color:#002F35;
+    font-weight: 800;
+    margin-right: 0.7rem;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label_certification_info_container_italianolitre_box_2{
+    height: 100%;
+    width: 50%;
+    border: 2px solid  #99FF00;
+    border-radius: 4px;
+    background-color: #99FF00;
+    color:#002F35;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********** CONTAINER 5 ***********/
+.flag_container{
+    height: 2%;
+    border: 2px solid  #99FF00;
+    width: 100%;
+}
