@@ -1,6 +1,9 @@
 import React  from 'react';
-import styles from './Label.module.css'
-import cdelogo from '../assets/cde_logo6.svg'
+import styles from './Label.module.css';
+import cdelogo from '../assets/cde_logo6.svg';
+import cdetitle from '../assets/ColleDegliElimiTitle.svg';
+import italianflag from '../assets/ItalianFlag.svg';
+import bioagricertlogo from '../assets/bioagricert2.svg'
 
 
 
@@ -11,7 +14,7 @@ const Label= () => {
         <section className={styles.label_super_container}>
 
             <section className={styles.label_title_container}>
-                Colle Degli Elimi
+                <img src={cdetitle} width={400} alt='cde title' className='cde-title-img'/>
             </section>
 
             <section className={styles.label_description_container}>
@@ -21,7 +24,7 @@ const Label= () => {
                     </div>
 
                     <div  className={styles.label_description_container_description_bio}>
-                      Biologico
+                   BIOLOGICO
                     </div>
                 </div>
                 
@@ -52,13 +55,14 @@ const Label= () => {
                 </div>
 
                 <div className={styles.info_logo_container_logo}>
-                    <img src={cdelogo} alt='cdelogo' width="100%" height="100%"  className={styles.info_logo_container_logo_img} ></img>
+                    <img src={cdelogo} alt='cdelogo'  className={styles.info_logo_container_logo_img} ></img>
                 </div>
             </section>
 
             <section className={styles.certification_info_container}>
                 <div className={styles.certification_info_container_biocert}>
-                    Biocert
+                <img src={bioagricertlogo} alt='bio agricert logo' className={styles.biocert_img}  ></img>
+
                 </div>
 
                 <div className={styles.label_certification_info_container_info_container}>
@@ -74,7 +78,7 @@ const Label= () => {
                                 Lotto
                             </div>
                             <div className={styles.label_certification_info_container_userecycle_box_4}>
-                                
+
                             </div>
                     </div>
                     <div className={styles.label_certification_info_container_italianolitres}>
@@ -90,7 +94,7 @@ const Label= () => {
             </section>
 
             <section className={styles.flag_container}>
-               Flag
+            <img src={italianflag} width={400} alt='italian flag' className='italian-flag-img'/>
             </section>
 
         </section>
