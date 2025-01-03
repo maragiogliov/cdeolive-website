@@ -2,52 +2,44 @@ import React from 'react';
 
 const Nutritional = () => {
   const containerStyle = {
-    padding: '2rem',
+    padding: '1rem',
+    borderRadius: '8px',
     backgroundColor: '#002F35',
     color: '#99FF00',
-    fontFamily: "'Courier New', Courier, monospace",
-    textAlign: 'center',
-    margin: '2rem ',
-    borderRadius: '4px',
-    border: '2px solid #99FF00',
-    boxShadow: '0 0 20px rgba(0, 255, 0, 0.7)',
-    position: 'relative',
-    overflow: 'hidden',
+    fontFamily: 'Courier New, monospace',
+    lineHeight: '1.5',
+    textAlign: 'left',
+    fontSize: '14px',
   };
 
   const titleStyle = {
-    fontSize: '42px',
+    fontSize: '18px',
     fontWeight: 'bold',
-    marginBottom: '1.2rem',
-    textTransform: 'uppercase',
-    color: '#99FF00',
-    letterSpacing: '2px',
-    animation: 'typewriter 4s steps(50) 1s 1 normal both',
+    marginBottom: '0.5rem',
   };
 
   const subtitleStyle = {
-    fontSize: '22px',
+    fontSize: '16px',
     fontWeight: 'bold',
-    color: '#f5f5f5',
+    color: '#99FF00',
     textDecoration: 'underline',
     margin: '1rem 0',
     letterSpacing: '1px',
   };
 
   const descriptionStyle = {
-    fontSize: '20px',
-    color: '#f5f5f5',
+    fontSize: '16px',
+    color: '#99FF00',
     lineHeight: '1.8',
     textAlign: 'left',
-    maxWidth: '800px',
     marginLeft: 'auto',
     marginRight: 'auto',
   };
 
   const tableStyle = {
-    width: '80%',
+    width: '100%',
     borderCollapse: 'collapse',
-    marginTop: '2rem',
+    marginBottom : '4rem',
     marginLeft: 'auto',
     marginRight: 'auto',
     borderRadius: '5px',
@@ -75,26 +67,16 @@ const Nutritional = () => {
 
   const tableRowValueStyle = {
     padding: '0.8rem',
-    textAlign: 'center',
+    textAlign: 'left',
     borderBottom: '2px solid #99FF00',
     color: '#f5f5f5',
   };
 
-  const matrixEffectStyle = {
-    position: 'absolute',
-    top: '0',
-    right: '0',
-    width: '100%',
-    height: '100%',
-    backgroundImage: 'url("https://www.transparenttextures.com/patterns/black-linen.png")',
-    zIndex: '-1',
-    opacity: '0.2',
-  };
+
 
   return (
     <div style={containerStyle}>
-      <div style={matrixEffectStyle}></div>
-      <h3 style={titleStyle}>Nutritional Declaration and Average Value per 100ML of EVOO</h3>
+      <div style={titleStyle}>Nutritional Declaration and Average Value per 100ML of EVOO</div>
 
       <p style={descriptionStyle}>
         <span style={{ fontWeight: 'bold' }}>Extra Virgin Olive Oil (EVOO)</span> stands at the pinnacle of healthy fats,

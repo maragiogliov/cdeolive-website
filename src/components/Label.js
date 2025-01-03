@@ -42,7 +42,7 @@ const Label = () => {
           className={styles.label_title_container}
           onClick={() => handleSectionClick(TitleComponent)}
         >
-          <img src={cdetitle} width={400} alt="cde title" className="cde-title-img" />
+          <img src={cdetitle} width={450} alt="cde title" className="cde-title-img" />
         </section>
 
         {/* Description Section */}
@@ -50,13 +50,13 @@ const Label = () => {
           className={styles.label_description_container}
           onClick={() => handleSectionClick(DescriptionComponent)}
         >
-          <div className={styles.label_description_container_description}>
+          <div className={styles.label_description_container_description} onClick={() => handleSectionClick(DescriptionComponent)}>
             <p>
               Olio di oliva di categoria superiore ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici.
             </p>
             <div className={styles.label_description_container_description_bio}>BIOLOGICO</div>
           </div>
-          <div className={styles.label_description_container_qr}>QR</div>
+          <div className={styles.label_description_container_qr}>ORDER</div>
         </section>
 
         {/* Nutritional Table Section */}
