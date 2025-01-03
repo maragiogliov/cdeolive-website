@@ -8,19 +8,15 @@ html {
 
 :root {
 
-  --primary-color: #99FF00;
-  --secondary-color: #002F35;
-  --tertiary-color: #f5f5f5;
-
-  --black-color:#000000;
-
-  --margin-small: 1vw;
-  --margin-medium:2vw;
-  --margin-big:3vw;
-
-  --font-size-small: 1vw;
-  --font-size-medium: 2vw;
-  --font-size-big: 3vw;
+  --main-bg-color: #002F35;
+    --main-accent-color: #ffffff;
+    --secondary-accent-color: #f5f5f5;
+    --font-color: #002F35;
+    --font-size-small: 12px;
+    --font-size-medium: 14px;
+    --font-size-large: 24px;
+    --border-radius: 4px;
+    --border-width: 2px;
 
 
 }  

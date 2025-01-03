@@ -8,31 +8,32 @@
     align-items: center;
     align-items: center;
     color: #99FF00;
-    margin-left: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+
 }
 /*********** CONTAINER 0 ***********/
 .label_title_container{
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid  #99FF00;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-items: center;
+    padding-top: 0.75rem;
 }
-
-
 /*********** CONTAINER 1 ***********/
 .label_description_container{
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    border: 2px solid  #99FF00;
     text-transform: uppercase;
+    padding-top: 0.5rem;
 }
 .label_description_container_description{
-    width: 60%;
+    width: 95%;
     margin-right: 1rem;
     font-size: 14px;
 }
@@ -50,7 +51,7 @@
 }
 /*********** CONTAINER 2 ***********/
 .nutritional_tabel_container{
-    width: 400px;
+    width: 450px;
     box-sizing: border-box;
     border: 2px solid  #99FF00;
     text-transform: uppercase;
@@ -59,14 +60,51 @@
     align-items: center;
     justify-content: center;
     font-size: 1.35vh;
+    margin-top: 0.5rem;
+}
+.nutritional_tabel_row_container_title{
+    font-size: 13px;
+    margin: 0.5rem;
+
+}
+.nutritional_tabel_row_container{
+    width: 100%;
+
+}
+.nutritional_tabel_row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-transform: capitalize;
+    border-bottom: 2px solid #99FF00;
+    padding: 0.5rem;
+    padding-top: 0rem;
+    margin: 0.5rem;
+}
+.nutritional_tabel_row:last-child{
+
+    border-bottom: none;
+  
+}
+.nutritional_tabel_row_text{
+    width: 50%;
+
+}
+.nutritional_tabel_row_number{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  
 }
 /*********** CONTAINER 3 ***********/
 .info_logo_container{
-    width: 400px;
+    width: 450px;
     box-sizing: border-box;
-    border: 2px solid  #99FF00;
     display: flex;
     flex-direction: row;
+    margin-top: 0.5rem;
+
 
 }
 .info_logo_container_info{
@@ -79,19 +117,18 @@
 .info_logo_container_info_basirico{
     border: 2px solid  #99FF00;
     border-radius: 4px;
-    height: 33%;
+    height: 28%;
     font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 0.5rem;
 
 }
 .info_logo_container_info_bellitti{
     border: 2px solid  #99FF00;
     border-radius: 4px;
-    height: 33%;
+    height: 28%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 12px;
@@ -99,18 +136,16 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 0.5rem;
 }
 .info_logo_container_info_conservare{
     border: 2px solid  #99FF00;
     border-radius: 4px;
-    height: 33%;
+    height: 28%;
     font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 0.5rem;
 }
 .info_logo_container_logo{
 
@@ -122,15 +157,15 @@
 }
 /*********** CONTAINER 4 ***********/
 .certification_info_container{
-    width: 400px;
+    width: 450px;
     box-sizing: border-box;
-    border: 2px solid  #99FF00;
     display: flex;
     flex-direction: row;
+    margin-top: 0.5rem;
+
 }
 .certification_info_container_biocert{
     box-sizing: border-box;
-    border: 2px solid  #99FF00;
     width: 30%;
     margin-right: 1rem;
 }
@@ -202,11 +237,27 @@
 
 /*********** CONTAINER 5 ***********/
 .flag_container{
-    width: 400px;
+    width: 450px;
     box-sizing: border-box;
-    border: 2px solid  #99FF00;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
+
+}
+
+.super_container_alpha{
+    display: flex;
+    flex-direction: row;
+}
+
+.showbox_container{
+    background-color: #002F35;
+
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px solid #99FF00;
+    overflow-y: scroll;
 }
