@@ -130,6 +130,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 
 }
 .info_logo_container_info_bellitti{

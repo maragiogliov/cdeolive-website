@@ -9,9 +9,9 @@ import bioagricertlogo from '../assets/bioagricert2.svg';
 import TitleComponent from './Title';
 import DescriptionComponent from './Description';
 import NutritionalComponent from './Nutritional';
-import InfoLogoComponent from './InfoLogo';
+import BasiricoComponent from './Basirico';
 import CertificationComponent from './Certification';
-import FlagComponent from './Flag';
+import InfoBellittiComponent from './InfoBellitti';
 
 // Reusable Components
 const NutritionalRow = ({ label, value, subLabel, subValue }) => (
@@ -79,13 +79,12 @@ const Label = () => {
         {/* Info and Logos Section */}
         <section
           className={styles.info_logo_container}
-          onClick={() => handleSectionClick(InfoLogoComponent)}
         >
           <div className={styles.info_logo_container_info}>
-            <p className={styles.info_logo_container_info_basirico}>
+            <p className={styles.info_logo_container_info_basirico}  onClick={() => handleSectionClick(BasiricoComponent)}>
               Confezionato da Basirico Pietro in Via A Crispo 6 Paceco (TP) ITALY
             </p>
-            <p className={styles.info_logo_container_info_bellitti}>
+            <p className={styles.info_logo_container_info_bellitti} onClick={() => handleSectionClick(InfoBellittiComponent)}>
               Azienda Agricola: Bellitti Francesco Via P. Favara 26 91018 Salemi (TP) SICILIA
             </p>
             <p className={styles.info_logo_container_info_conservare}>
@@ -132,7 +131,6 @@ const Label = () => {
         {/* Flag Section */}
         <section
           className={styles.flag_container}
-          onClick={() => handleSectionClick(FlagComponent)}
         >
           <img src={italianflag} width={450} alt="italian flag" className="italian-flag-img" />
         </section>

@@ -22,21 +22,26 @@ const Description = () => {
     fontSize: '16px',
     fontWeight: '600',
     marginBottom: '0.5rem',
-    color: '#CCFF33',
   };
 
   const paragraphStyle = {
-    marginBottom: '1rem',
+    fontSize: '16px',
+    color: '#99FF00',
+    lineHeight: '1.8',
+    textAlign: 'left',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
 
   const listStyle = {
     paddingLeft: '1.5rem',
     listStyleType: 'disc',
+    fontSize: '16px',
   };
 
   return (
     <div style={containerStyle}>
-      <div style={headerStyle}>Superior Category Olive Oil</div>
+      <div style={headerStyle}>Organic EVOO</div>
       <div style={paragraphStyle}>
         This premium olive oil is directly extracted from olives using only mechanical processes. It embodies the essence of quality and tradition, offering a rich flavor profile and exceptional health benefits.
       </div>

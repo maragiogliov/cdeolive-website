@@ -1,5 +1,4 @@
 import React from 'react';
-import cdetitle from '../assets/ColleDegliElimiTitle.svg';  // Assuming this image exists in your assets
 
 const Title = () => {
   const containerStyle = {
@@ -10,62 +9,38 @@ const Title = () => {
     fontFamily: 'Courier New, monospace',
     lineHeight: '1.5',
     textAlign: 'left',
-    margin: '1rem ',
     fontSize: '14px',
   };
 
   const titleStyle = {
-    fontSize: '44px',
+    fontSize: '18px',
     fontWeight: 'bold',
     marginBottom: '0.5rem',
-    textAlign: 'center',
   };
 
   const paragraphStyle = {
-    fontSize: '32px',
+    fontSize: '16px',
     marginBottom: '1rem',
   };
 
   const headingStyle = {
-    fontSize: '32px',
+    fontSize: '16px',
     marginTop: '1rem',
     fontWeight: 'bold',
     color: '#99FF00',
   };
 
   const listStyle = {
-    fontSize: '24px',
+    fontSize: '16px',
     marginLeft: '2rem',
     lineHeight: '1.8',
   };
-  const cdeNameStyleContainer= {
-    textAlign: 'center',
-    display: 'flex',
-    flexDirection:'column',
-    justifyContent: 'center',
-    alignItems:'center'
-  }
-  const cdeNameStyle = {
-    textAlign: 'center',
-    display: 'flex',
-    flexDirection:'column',
-    justifyContent: 'center',
-
-  }
 
 
   return (
     <div style={containerStyle}>
-      <div  style={cdeNameStyleContainer}>
-      <img src={cdetitle} width={800} alt="CDE title" style={cdeNameStyle} />
-      <a title="Halibutt, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Sicily_prehellenic_topographic_map.svg">
-      
-      <img width="512" alt="Sicily prehellenic topographic map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sicily_prehellenic_topographic_map.svg/512px-Sicily_prehellenic_topographic_map.svg.png?20230122220023" />
-      
-      </a>
-      </div>
-      
-      <h2 style={titleStyle}>The Elimi People and Salemi: A Deep Dive into History, Culture, and Influence</h2>
+
+      <div style={titleStyle}>The Elimi People and Salemi: A Deep Dive into History, Culture, and Influence</div>
       <p style={paragraphStyle}>
         The history of the <strong>Elimi</strong> people, a group of ancient Sicilian settlers, is shrouded in mystery and intrigue. The Elimi were believed to have come to Sicily from the <strong>Eastern Mediterranean</strong>, possibly originating from <strong>Troy</strong> or <strong>Anatolia</strong> (modern-day Turkey). Their migration is said to have occurred around the 12th century BCE, following the fall of the city of Troy.
       </p>
